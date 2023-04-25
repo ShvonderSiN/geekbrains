@@ -29,26 +29,31 @@ except ValueError:
     sys.exit()
 
 
-def profit(income, outcome) -> int:
-    '''Возвращает прибыль'''
-    return income - outcome
+def profit(inc: int = 0, out: int = 0) -> int:
+    """Возвращает прибыль"""
+    return inc - out
 
 
-def profit_margin(profit, income) -> float:
-    '''Возвращает рентабельность выручки'''
-    return (profit / income * 100) / 100
+def profit_margin(prof: int, inc: int) -> float:
+    """Возвращает рентабельность выручки"""
+    return (prof / inc * 100) / 100
 
 
-def profit_employees(profit, n) -> float:
-    '''Возвращает прибыль фирмы в расчете на одного сотрудника'''
-    return round(profit / n, 2)
+def profit_employees(prof: int, n) -> float:
+    """Возвращает прибыль фирмы в расчете на одного сотрудника"""
+    return round(prof / n, 2)
 
 
 profit = profit(income, outcome)
 profit_margin = profit_margin(profit, income)
 profit_employees = profit_employees(profit, employees_number)
 
-print(f'Финансовый результат - прибыль. Ее величина: {profit}')
+if income > outcome:
+    print(f'Финансовый результат - прибыль. Ее величина: {profit}')
+elif income < outcome:
+    print(f'Финансовый результат - убыток. Его величина: {profit}')
+else:
+    print(f'Финансовый результат - в ноль: {profit}')
 print(f'Рентабельность выручки = {profit_margin}')
 print(f'Прибыль фирмы в расчете на одного сотрудника = {profit_employees}')
 
@@ -67,16 +72,20 @@ print(f'Прибыль фирмы в расчете на одного сотру
 """
 print('Дополнительная задача 4')
 
-paper_birds = int(input('Введите количество журавликов: ').strip())
+try:
+    paper_birds = int(input('Введите количество журавликов: ').strip())
+except ValueError:
+    print('Введите целочисленное значение')
+    sys.exit()
 
 
 def count_birds(n) -> tuple:
-    '''Возвращает количество журавликов детей
-    Формулу расчета пришлось искать в интернете'''
+    """Возвращает количество журавликов детей
+    Формулу расчета пришлось искать в интернете"""
     katya = (n // 6) * 4
     boy = n // 6
     return katya, boy
 
 
-all = count_birds(paper_birds)
-print(all[1], all[0], all[1])
+all_birds = count_birds(paper_birds)
+print(all_birds[1], all_birds[0], all_birds[1])

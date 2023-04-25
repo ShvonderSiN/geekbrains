@@ -26,7 +26,6 @@ except ValueError:
 else:
     print(time_converter(time))
 
-
 """ДОПОЛНИТЕЛЬНЫЕ:
 Задача 2: Найдите сумму цифр трехзначного числа.
 
@@ -39,13 +38,13 @@ else:
 print('Дополнительно Задача 2: Найдите сумму цифр трехзначного числа.')
 
 
-def sum_digits(number) -> int:
-    '''Возвращает сумму цифр трехзначного числа'''
-    sum = 0
-    while number > 0:
-        sum += number % 10
-        number //= 10
-    return sum
+def sum_digits(num) -> int:
+    """Возвращает сумму цифр трехзначного числа"""
+    summary = 0
+    while num > 0:
+        summary += num % 10
+        num //= 10
+    return summary
 
 
 try:
