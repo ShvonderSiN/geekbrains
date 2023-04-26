@@ -5,6 +5,9 @@ import sys
 
 
 def main(num) -> None:
+    """
+    Выводит целые степени двойки
+    """
     i = 0
     while 2 ** i <= num:
         print(2 ** i)
