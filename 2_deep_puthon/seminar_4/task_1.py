@@ -15,7 +15,9 @@ def string_splitter(s: str = '') -> list:
 
 
 string = 'Hello World Guys Parabellum'
-max_len = max(len(word) for word in string_splitter(string))
+# max_len = max(len(word) for word in string_splitter(string))
+#  удалось посмотреть часть лекции, решил дописать как можно max использовать еще
+max_len = len(max(string_splitter(string), key=lambda x: len(x)))
 
 for num, w in enumerate(string_splitter(string), 1):
     print(f'{num}, {w.rjust(max_len)}')
