@@ -1,1 +1,1 @@
-__all__ = ['module_task7', 'modul_file']
+__all__ = ['module_task7', 'modul_file', 'chess']

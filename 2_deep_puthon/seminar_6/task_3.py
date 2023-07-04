@@ -7,7 +7,7 @@ from sem6_package.modul_file import recon_number
 import sys
 
 try:
-    params = (int(number) for number in sys.argv[1:])
+    params = (int(number) for number in sys.argv[1:4])
     recon_number(*params)
 except ValueError:
     print(f'Параметры передавайте в виде целых чисел через пробел, не более трех значений!')

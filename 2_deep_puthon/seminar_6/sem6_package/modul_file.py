@@ -1,6 +1,6 @@
 from random import randint
 
-__all__ = ['some_func', 'recon_number']
+__all__ = ['some_func', 'recon_number', 'puzzler']
 
 _dict_answers = {}
 

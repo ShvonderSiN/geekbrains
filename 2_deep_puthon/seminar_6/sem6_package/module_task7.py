@@ -3,7 +3,6 @@ from datetime import datetime
 __all__ = ['check_date']
 
 
-
 def _is_leap_year(year):
     if (year % 4 == 0 and year % 100 != 0) or year % 400 == 0:
         return True
