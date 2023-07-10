@@ -1,0 +1,524 @@
+[
+    {
+        "Name": "2_deep_puthon",
+        "Type": "Директория",
+        "Size": 28672,
+        "Parent Directory": "C:\\Projects\\geekbrains"
+    },
+    {
+        "Name": "seminar_1",
+        "Type": "Директория",
+        "Size": 7668,
+        "Parent Directory": "C:\\Projects\\geekbrains\\2_deep_puthon"
+    },
+    {
+        "Name": "task_6.py",
+        "Type": "Файл",
+        "Size": 1168,
+        "Parent Directory": "C:\\Projects\\geekbrains\\2_deep_puthon\\seminar_1"
+    },
+    {
+        "Name": "task_7.py",
+        "Type": "Файл",
+        "Size": 1869,
+        "Parent Directory": "C:\\Projects\\geekbrains\\2_deep_puthon\\seminar_1"
+    },
+    {
+        "Name": "task_8.py",
+        "Type": "Файл",
+        "Size": 510,
+        "Parent Directory": "C:\\Projects\\geekbrains\\2_deep_puthon\\seminar_1"
+    },
+    {
+        "Name": "task_9.py",
+        "Type": "Файл",
+        "Size": 278,
+        "Parent Directory": "C:\\Projects\\geekbrains\\2_deep_puthon\\seminar_1"
+    },
+    {
+        "Name": "task_home.py",
+        "Type": "Файл",
+        "Size": 3843,
+        "Parent Directory": "C:\\Projects\\geekbrains\\2_deep_puthon\\seminar_1"
+    },
+    {
+        "Name": "seminar_2",
+        "Type": "Директория",
+        "Size": 6033,
+        "Parent Directory": "C:\\Projects\\geekbrains\\2_deep_puthon"
+    },
+    {
+        "Name": "task_3.py",
+        "Type": "Файл",
+        "Size": 1265,
+        "Parent Directory": "C:\\Projects\\geekbrains\\2_deep_puthon\\seminar_2"
+    },
+    {
+        "Name": "task_5.py",
+        "Type": "Файл",
+        "Size": 863,
+        "Parent Directory": "C:\\Projects\\geekbrains\\2_deep_puthon\\seminar_2"
+    },
+    {
+        "Name": "task_6.py",
+        "Type": "Файл",
+        "Size": 3905,
+        "Parent Directory": "C:\\Projects\\geekbrains\\2_deep_puthon\\seminar_2"
+    },
+    {
+        "Name": "seminar_3",
+        "Type": "Директория",
+        "Size": 8464,
+        "Parent Directory": "C:\\Projects\\geekbrains\\2_deep_puthon"
+    },
+    {
+        "Name": "home_task.py",
+        "Type": "Файл",
+        "Size": 2577,
+        "Parent Directory": "C:\\Projects\\geekbrains\\2_deep_puthon\\seminar_3"
+    },
+    {
+        "Name": "home_task_advanced.py",
+        "Type": "Файл",
+        "Size": 3215,
+        "Parent Directory": "C:\\Projects\\geekbrains\\2_deep_puthon\\seminar_3"
+    },
+    {
+        "Name": "task_1.py",
+        "Type": "Файл",
+        "Size": 1158,
+        "Parent Directory": "C:\\Projects\\geekbrains\\2_deep_puthon\\seminar_3"
+    },
+    {
+        "Name": "task_2.py",
+        "Type": "Файл",
+        "Size": 974,
+        "Parent Directory": "C:\\Projects\\geekbrains\\2_deep_puthon\\seminar_3"
+    },
+    {
+        "Name": "task_3.py",
+        "Type": "Файл",
+        "Size": 540,
+        "Parent Directory": "C:\\Projects\\geekbrains\\2_deep_puthon\\seminar_3"
+    },
+    {
+        "Name": "seminar_4",
+        "Type": "Директория",
+        "Size": 9446,
+        "Parent Directory": "C:\\Projects\\geekbrains\\2_deep_puthon"
+    },
+    {
+        "Name": "home_work.py",
+        "Type": "Файл",
+        "Size": 1847,
+        "Parent Directory": "C:\\Projects\\geekbrains\\2_deep_puthon\\seminar_4"
+    },
+    {
+        "Name": "task_1.py",
+        "Type": "Файл",
+        "Size": 1168,
+        "Parent Directory": "C:\\Projects\\geekbrains\\2_deep_puthon\\seminar_4"
+    },
+    {
+        "Name": "task_2.py",
+        "Type": "Файл",
+        "Size": 461,
+        "Parent Directory": "C:\\Projects\\geekbrains\\2_deep_puthon\\seminar_4"
+    },
+    {
+        "Name": "task_3.py",
+        "Type": "Файл",
+        "Size": 1046,
+        "Parent Directory": "C:\\Projects\\geekbrains\\2_deep_puthon\\seminar_4"
+    },
+    {
+        "Name": "task_4.py",
+        "Type": "Файл",
+        "Size": 645,
+        "Parent Directory": "C:\\Projects\\geekbrains\\2_deep_puthon\\seminar_4"
+    },
+    {
+        "Name": "task_5.py",
+        "Type": "Файл",
+        "Size": 935,
+        "Parent Directory": "C:\\Projects\\geekbrains\\2_deep_puthon\\seminar_4"
+    },
+    {
+        "Name": "task_6.py",
+        "Type": "Файл",
+        "Size": 1258,
+        "Parent Directory": "C:\\Projects\\geekbrains\\2_deep_puthon\\seminar_4"
+    },
+    {
+        "Name": "task_7.py",
+        "Type": "Файл",
+        "Size": 1195,
+        "Parent Directory": "C:\\Projects\\geekbrains\\2_deep_puthon\\seminar_4"
+    },
+    {
+        "Name": "task_8.py",
+        "Type": "Файл",
+        "Size": 891,
+        "Parent Directory": "C:\\Projects\\geekbrains\\2_deep_puthon\\seminar_4"
+    },
+    {
+        "Name": "seminar_5",
+        "Type": "Директория",
+        "Size": 8984,
+        "Parent Directory": "C:\\Projects\\geekbrains\\2_deep_puthon"
+    },
+    {
+        "Name": "home_work_1.py",
+        "Type": "Файл",
+        "Size": 1091,
+        "Parent Directory": "C:\\Projects\\geekbrains\\2_deep_puthon\\seminar_5"
+    },
+    {
+        "Name": "home_work_2.py",
+        "Type": "Файл",
+        "Size": 1098,
+        "Parent Directory": "C:\\Projects\\geekbrains\\2_deep_puthon\\seminar_5"
+    },
+    {
+        "Name": "home_work_3.py",
+        "Type": "Файл",
+        "Size": 420,
+        "Parent Directory": "C:\\Projects\\geekbrains\\2_deep_puthon\\seminar_5"
+    },
+    {
+        "Name": "task_1.py",
+        "Type": "Файл",
+        "Size": 923,
+        "Parent Directory": "C:\\Projects\\geekbrains\\2_deep_puthon\\seminar_5"
+    },
+    {
+        "Name": "task_2.py",
+        "Type": "Файл",
+        "Size": 571,
+        "Parent Directory": "C:\\Projects\\geekbrains\\2_deep_puthon\\seminar_5"
+    },
+    {
+        "Name": "task_3.py",
+        "Type": "Файл",
+        "Size": 774,
+        "Parent Directory": "C:\\Projects\\geekbrains\\2_deep_puthon\\seminar_5"
+    },
+    {
+        "Name": "task_4.py",
+        "Type": "Файл",
+        "Size": 435,
+        "Parent Directory": "C:\\Projects\\geekbrains\\2_deep_puthon\\seminar_5"
+    },
+    {
+        "Name": "task_5.py",
+        "Type": "Файл",
+        "Size": 1164,
+        "Parent Directory": "C:\\Projects\\geekbrains\\2_deep_puthon\\seminar_5"
+    },
+    {
+        "Name": "task_6.py",
+        "Type": "Файл",
+        "Size": 961,
+        "Parent Directory": "C:\\Projects\\geekbrains\\2_deep_puthon\\seminar_5"
+    },
+    {
+        "Name": "task_7.py",
+        "Type": "Файл",
+        "Size": 1547,
+        "Parent Directory": "C:\\Projects\\geekbrains\\2_deep_puthon\\seminar_5"
+    },
+    {
+        "Name": "seminar_6",
+        "Type": "Директория",
+        "Size": 14742,
+        "Parent Directory": "C:\\Projects\\geekbrains\\2_deep_puthon"
+    },
+    {
+        "Name": "home.py",
+        "Type": "Файл",
+        "Size": 1491,
+        "Parent Directory": "C:\\Projects\\geekbrains\\2_deep_puthon\\seminar_6"
+    },
+    {
+        "Name": "task_1.py",
+        "Type": "Файл",
+        "Size": 440,
+        "Parent Directory": "C:\\Projects\\geekbrains\\2_deep_puthon\\seminar_6"
+    },
+    {
+        "Name": "task_2.py",
+        "Type": "Файл",
+        "Size": 779,
+        "Parent Directory": "C:\\Projects\\geekbrains\\2_deep_puthon\\seminar_6"
+    },
+    {
+        "Name": "task_3.py",
+        "Type": "Файл",
+        "Size": 893,
+        "Parent Directory": "C:\\Projects\\geekbrains\\2_deep_puthon\\seminar_6"
+    },
+    {
+        "Name": "task_4.py",
+        "Type": "Файл",
+        "Size": 665,
+        "Parent Directory": "C:\\Projects\\geekbrains\\2_deep_puthon\\seminar_6"
+    },
+    {
+        "Name": "task_5.py",
+        "Type": "Файл",
+        "Size": 450,
+        "Parent Directory": "C:\\Projects\\geekbrains\\2_deep_puthon\\seminar_6"
+    },
+    {
+        "Name": "task_6.py",
+        "Type": "Файл",
+        "Size": 507,
+        "Parent Directory": "C:\\Projects\\geekbrains\\2_deep_puthon\\seminar_6"
+    },
+    {
+        "Name": "task_7.py",
+        "Type": "Файл",
+        "Size": 884,
+        "Parent Directory": "C:\\Projects\\geekbrains\\2_deep_puthon\\seminar_6"
+    },
+    {
+        "Name": "task_8.py",
+        "Type": "Файл",
+        "Size": 441,
+        "Parent Directory": "C:\\Projects\\geekbrains\\2_deep_puthon\\seminar_6"
+    },
+    {
+        "Name": "sem6_package",
+        "Type": "Директория",
+        "Size": 7646,
+        "Parent Directory": "C:\\Projects\\geekbrains\\2_deep_puthon\\seminar_6"
+    },
+    {
+        "Name": "chess.py",
+        "Type": "Файл",
+        "Size": 371,
+        "Parent Directory": "C:\\Projects\\geekbrains\\2_deep_puthon\\seminar_6\\sem6_package"
+    },
+    {
+        "Name": "module_task7.py",
+        "Type": "Файл",
+        "Size": 842,
+        "Parent Directory": "C:\\Projects\\geekbrains\\2_deep_puthon\\seminar_6\\sem6_package"
+    },
+    {
+        "Name": "modul_file.py",
+        "Type": "Файл",
+        "Size": 2286,
+        "Parent Directory": "C:\\Projects\\geekbrains\\2_deep_puthon\\seminar_6\\sem6_package"
+    },
+    {
+        "Name": "__init__.py",
+        "Type": "Файл",
+        "Size": 51,
+        "Parent Directory": "C:\\Projects\\geekbrains\\2_deep_puthon\\seminar_6\\sem6_package"
+    },
+    {
+        "Name": "__pycache__",
+        "Type": "Директория",
+        "Size": 2360,
+        "Parent Directory": "C:\\Projects\\geekbrains\\2_deep_puthon\\seminar_6\\sem6_package"
+    },
+    {
+        "Name": "chess.cpython-311.pyc",
+        "Type": "Файл",
+        "Size": 777,
+        "Parent Directory": "C:\\Projects\\geekbrains\\2_deep_puthon\\seminar_6\\sem6_package\\__pycache__"
+    },
+    {
+        "Name": "module_task7.cpython-311.pyc",
+        "Type": "Файл",
+        "Size": 1349,
+        "Parent Directory": "C:\\Projects\\geekbrains\\2_deep_puthon\\seminar_6\\sem6_package\\__pycache__"
+    },
+    {
+        "Name": "__init__.cpython-311.pyc",
+        "Type": "Файл",
+        "Size": 234,
+        "Parent Directory": "C:\\Projects\\geekbrains\\2_deep_puthon\\seminar_6\\sem6_package\\__pycache__"
+    },
+    {
+        "Name": "__pycache__",
+        "Type": "Директория",
+        "Size": 0,
+        "Parent Directory": "C:\\Projects\\geekbrains\\2_deep_puthon\\seminar_6"
+    },
+    {
+        "Name": "seminar_7",
+        "Type": "Директория",
+        "Size": 4517,
+        "Parent Directory": "C:\\Projects\\geekbrains\\2_deep_puthon"
+    },
+    {
+        "Name": "file.txt",
+        "Type": "Файл",
+        "Size": 642,
+        "Parent Directory": "C:\\Projects\\geekbrains\\2_deep_puthon\\seminar_7"
+    },
+    {
+        "Name": "home.py",
+        "Type": "Файл",
+        "Size": 1774,
+        "Parent Directory": "C:\\Projects\\geekbrains\\2_deep_puthon\\seminar_7"
+    },
+    {
+        "Name": "names.txt",
+        "Type": "Файл",
+        "Size": 520,
+        "Parent Directory": "C:\\Projects\\geekbrains\\2_deep_puthon\\seminar_7"
+    },
+    {
+        "Name": "task_1.py",
+        "Type": "Файл",
+        "Size": 995,
+        "Parent Directory": "C:\\Projects\\geekbrains\\2_deep_puthon\\seminar_7"
+    },
+    {
+        "Name": "task_2.py",
+        "Type": "Файл",
+        "Size": 586,
+        "Parent Directory": "C:\\Projects\\geekbrains\\2_deep_puthon\\seminar_7"
+    },
+    {
+        "Name": "sem7_package",
+        "Type": "Директория",
+        "Size": 7428,
+        "Parent Directory": "C:\\Projects\\geekbrains\\2_deep_puthon\\seminar_7"
+    },
+    {
+        "Name": "tools.py",
+        "Type": "Файл",
+        "Size": 3313,
+        "Parent Directory": "C:\\Projects\\geekbrains\\2_deep_puthon\\seminar_7\\sem7_package"
+    },
+    {
+        "Name": "__init__.py",
+        "Type": "Файл",
+        "Size": 19,
+        "Parent Directory": "C:\\Projects\\geekbrains\\2_deep_puthon\\seminar_7\\sem7_package"
+    },
+    {
+        "Name": "__pycache__",
+        "Type": "Директория",
+        "Size": 5466,
+        "Parent Directory": "C:\\Projects\\geekbrains\\2_deep_puthon\\seminar_7\\sem7_package"
+    },
+    {
+        "Name": "tools.cpython-311.pyc",
+        "Type": "Файл",
+        "Size": 5266,
+        "Parent Directory": "C:\\Projects\\geekbrains\\2_deep_puthon\\seminar_7\\sem7_package\\__pycache__"
+    },
+    {
+        "Name": "__init__.cpython-311.pyc",
+        "Type": "Файл",
+        "Size": 200,
+        "Parent Directory": "C:\\Projects\\geekbrains\\2_deep_puthon\\seminar_7\\sem7_package\\__pycache__"
+    },
+    {
+        "Name": "__pycache__",
+        "Type": "Директория",
+        "Size": 0,
+        "Parent Directory": "C:\\Projects\\geekbrains\\2_deep_puthon\\seminar_7"
+    },
+    {
+        "Name": "seminar_8",
+        "Type": "Директория",
+        "Size": 32553,
+        "Parent Directory": "C:\\Projects\\geekbrains\\2_deep_puthon"
+    },
+    {
+        "Name": "home_work.csv",
+        "Type": "Файл",
+        "Size": 6716,
+        "Parent Directory": "C:\\Projects\\geekbrains\\2_deep_puthon\\seminar_8"
+    },
+    {
+        "Name": "home_work.json",
+        "Type": "Файл",
+        "Size": 13503,
+        "Parent Directory": "C:\\Projects\\geekbrains\\2_deep_puthon\\seminar_8"
+    },
+    {
+        "Name": "home_work.py",
+        "Type": "Файл",
+        "Size": 2616,
+        "Parent Directory": "C:\\Projects\\geekbrains\\2_deep_puthon\\seminar_8"
+    },
+    {
+        "Name": "task_2.py",
+        "Type": "Файл",
+        "Size": 2444,
+        "Parent Directory": "C:\\Projects\\geekbrains\\2_deep_puthon\\seminar_8"
+    },
+    {
+        "Name": "task_2_access_log.json",
+        "Type": "Файл",
+        "Size": 224,
+        "Parent Directory": "C:\\Projects\\geekbrains\\2_deep_puthon\\seminar_8"
+    },
+    {
+        "Name": "task_2_access_log.pickle",
+        "Type": "Файл",
+        "Size": 226,
+        "Parent Directory": "C:\\Projects\\geekbrains\\2_deep_puthon\\seminar_8"
+    },
+    {
+        "Name": "task_3.py",
+        "Type": "Файл",
+        "Size": 987,
+        "Parent Directory": "C:\\Projects\\geekbrains\\2_deep_puthon\\seminar_8"
+    },
+    {
+        "Name": "task_3_access_log.csv",
+        "Type": "Файл",
+        "Size": 71,
+        "Parent Directory": "C:\\Projects\\geekbrains\\2_deep_puthon\\seminar_8"
+    },
+    {
+        "Name": "task_4.py",
+        "Type": "Файл",
+        "Size": 1941,
+        "Parent Directory": "C:\\Projects\\geekbrains\\2_deep_puthon\\seminar_8"
+    },
+    {
+        "Name": "task_4_access_log.json",
+        "Type": "Файл",
+        "Size": 402,
+        "Parent Directory": "C:\\Projects\\geekbrains\\2_deep_puthon\\seminar_8"
+    },
+    {
+        "Name": "task_4_access_log.pickle",
+        "Type": "Файл",
+        "Size": 403,
+        "Parent Directory": "C:\\Projects\\geekbrains\\2_deep_puthon\\seminar_8"
+    },
+    {
+        "Name": "task_5.py",
+        "Type": "Файл",
+        "Size": 995,
+        "Parent Directory": "C:\\Projects\\geekbrains\\2_deep_puthon\\seminar_8"
+    },
+    {
+        "Name": "task_6.py",
+        "Type": "Файл",
+        "Size": 1303,
+        "Parent Directory": "C:\\Projects\\geekbrains\\2_deep_puthon\\seminar_8"
+    },
+    {
+        "Name": "task_6_restored_task_4_access_log.csv",
+        "Type": "Файл",
+        "Size": 145,
+        "Parent Directory": "C:\\Projects\\geekbrains\\2_deep_puthon\\seminar_8"
+    },
+    {
+        "Name": "task_7.py",
+        "Type": "Файл",
+        "Size": 577,
+        "Parent Directory": "C:\\Projects\\geekbrains\\2_deep_puthon\\seminar_8"
+    }
+]
