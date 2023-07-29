@@ -2,6 +2,7 @@
 # Напишите к ним классы исключения с выводом подробной информации.
 # Поднимайте исключения внутри основного кода.
 # Например нельзя создавать прямоугольник со сторонами отрицательной длины.
+import sys
 
 import numpy
 
@@ -16,7 +17,11 @@ class Matrix:
     """
 
     def __init__(self, *args):
-        self.matrix = numpy.array(args)
+        try:
+            self.matrix = numpy.array(args)
+        except ValueError as er:
+            print(f'{er}\nПроверьте переданные аргументы матрицы, ее геометрия не правильная')
+            sys.exit(0)
 
     def show_matrix(self) -> str:
         """
@@ -35,16 +40,17 @@ class Matrix:
     def __add__(self, other):
         try:
             matrix = Matrix(*numpy.add(self.matrix, other.matrix))
-        except ValueError:
-            print('Две матрицы можно сложить, если их размеры совпадают.')
+        except ValueError as er:
+            print(f'{er}\nДве матрицы можно сложить, если их размеры совпадают.')
         else:
             return matrix
 
     def __mul__(self, other):
         try:
-            matrix = m1 * m2
-        except ValueError:
-            print('Матрицы можно перемножить, если число столбцов первой матрицы равно числу строк второй матрицы.')
+            matrix = Matrix(*numpy.multiply(self.matrix, other.matrix))
+        except ValueError as er:
+            print(f'{er}\nМатрицы можно перемножить, если число столбцов первой \
+                    матрицы равно числу строк второй матрицы.')
         else:
             return matrix
 
