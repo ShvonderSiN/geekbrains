@@ -70,6 +70,7 @@ def friends_calc(friends: dict) -> None:
 
 if __name__ == '__main__':
     import random
+
     stuff = calc_back_pack(things, MAX_WEIGHT)
     print(stuff[0], *stuff[1])
 

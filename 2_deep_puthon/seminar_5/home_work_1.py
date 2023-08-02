@@ -19,7 +19,7 @@ def path_splitter_2(path: str) -> tuple:
     так, как пути могут отличаться в разных системах"""
     catalog, file = os.path.dirname(path), os.path.basename(path)
 
-    return catalog, *os.path.splitext(file) # здесь оставляет точку, ее можно убрать replace('.', '')
+    return catalog, *os.path.splitext(file)  # здесь оставляет точку, ее можно убрать replace('.', '')
 
 
 if __name__ == '__main__':

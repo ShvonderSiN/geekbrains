@@ -1,20 +1,20 @@
 [
-    {
-        "ID": "00ole_id43",
-        "NAME": "Oleg",
-        "LEVEL": "1",
-        "HASH_ID": 5709327987301616679
-    },
-    {
-        "ID": "098GGhhda6",
-        "NAME": "Vasya",
-        "LEVEL": "2",
-        "HASH_ID": 6640430178352390637
-    },
-    {
-        "ID": "043sssdddA",
-        "NAME": "Sergei",
-        "LEVEL": "5",
-        "HASH_ID": -596133503197128045
-    }
+  {
+    "ID": "00ole_id43",
+    "NAME": "Oleg",
+    "LEVEL": "1",
+    "HASH_ID": 5709327987301616679
+  },
+  {
+    "ID": "098GGhhda6",
+    "NAME": "Vasya",
+    "LEVEL": "2",
+    "HASH_ID": 6640430178352390637
+  },
+  {
+    "ID": "043sssdddA",
+    "NAME": "Sergei",
+    "LEVEL": "5",
+    "HASH_ID": -596133503197128045
+  }
 ]

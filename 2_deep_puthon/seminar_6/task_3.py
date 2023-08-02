@@ -11,5 +11,3 @@ try:
     recon_number(*params)
 except ValueError:
     print(f'Параметры передавайте в виде целых чисел через пробел, не более трех значений!')
-
-

@@ -4,6 +4,7 @@ from functools import wraps
 
 __all__ = ['save_to_json', 'decor_root']
 
+
 def save_to_json(dest: str) -> callable:
     def decorator(func):
         @wraps(func)

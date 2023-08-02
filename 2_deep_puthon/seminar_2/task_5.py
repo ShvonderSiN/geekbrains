@@ -12,9 +12,7 @@ a = float(input('Число A: '))
 b = float(input('Число B: '))
 c = float(input('Число C: '))
 
-
 D = (b ** 2) - (4 * a * c)
-
 
 root_1 = (-b + cmath.sqrt(D)) / (2 * a)
 root_2 = (-b - cmath.sqrt(D)) / (2 * a)

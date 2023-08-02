@@ -16,5 +16,3 @@ try:
     print(d)
 except ValueError:
     print('Введите корректную строку')
-
-

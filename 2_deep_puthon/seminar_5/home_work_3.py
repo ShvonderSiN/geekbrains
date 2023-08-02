@@ -2,7 +2,7 @@
 from typing import Generator
 
 
-def fibonacci_generator(count: int = 10) -> Generator[int]: #  Так правильно или можно без импорта?
+def fibonacci_generator(count: int = 10) -> Generator[int]:  # Так правильно или можно без импорта?
     a, b = 0, 1
     while count != 0:
         yield a

@@ -30,7 +30,7 @@ def guess_the_number(start: int = 1, stop: int = 100, tries: int = 10) -> callab
             if guess == num:
                 print(f'Поздравляю! Вы угадали число за {tries} попытки')
                 break
-            else: #  ToDO доделать больше или меньше
+            else:  # ToDO доделать больше или меньше
                 print('Не угадали, попробуйте еще раз')
                 tries -= 1
         else:

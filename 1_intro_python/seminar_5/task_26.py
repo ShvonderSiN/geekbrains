@@ -21,5 +21,6 @@ def grade(a, b) -> int:
         return 1
     return a * grade(a=a, b=b - 1)
 
+
 if __name__ == '__main__':
     print(grade(3, 5))
