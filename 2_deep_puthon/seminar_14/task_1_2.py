@@ -28,7 +28,7 @@ def alpha_string(string) -> str:
     >>> alpha_string('vasya5,Алеша 8 XXX')
     'vasya  xxx'
     """
-    latin_only = re.sub(r'[^a-zA-Z ]', '', string)
+    latin_only = re.sub(r'[^a-zA-Z\s]', '', string)
     return latin_only.lower()
 
 
