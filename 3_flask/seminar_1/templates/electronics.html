@@ -1,0 +1,25 @@
+{% extends 'base.html' %}
+
+{% block title %}
+    Раздел электроники
+{% endblock title %}
+
+{% block content %}
+    <div id="content">
+        <!-- insert the page content here -->
+        <h1>Раздел электроники</h1>
+
+        <ul>
+            {% for product_id, product_info in products.items() %}
+                <li>
+                    <h2>{{ product_info['name'] }}</h2>
+                    <p>Цена: {{ product_info['price'] }} руб.</p>
+                    <p>Описание: {{ product_info['description'] }}</p>
+                    <p>Категория: {{ product_info['category'] }}</p>
+                    <p>В наличии: {{ product_info['in_stock'] }} шт.</p>
+                </li>
+            {% endfor %}
+        </ul>
+
+    </div>
+{% endblock content %}

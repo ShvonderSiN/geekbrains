@@ -1,0 +1,17 @@
+{% extends 'base.html' %}
+
+{% block title %}
+    {{ product['name'] }}
+{% endblock title %}
+
+{% block content %}
+    <div id="content">
+        <!-- insert the page content here -->
+        <h1>{{ product['name'] }}</h1>
+        <p>{{ product['description'] }}</p>
+        <p>Цена: {{ product['price'] }}</p>
+        <p>Наличие: {{ product['in_stock'] }}</p>
+
+
+    </div>
+{% endblock content %}
