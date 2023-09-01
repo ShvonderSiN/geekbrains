@@ -1,0 +1,21 @@
+{% extends "base.html" %}
+
+
+{% block title %}Задание 9{% endblock title %}
+
+{% block content %}
+    <h1>Задание 9</h1>
+    {% if name %}
+        <p>Вы авторизованы как пользователь {{ name }}</p>
+        <p>Чтобы выйти, нажмите кнопку ниже</p>
+    {% else %}
+        <p>Вы не авторизованы</p>
+    {% endif %}
+
+
+    <form action="/hello9/" method="post">
+        <input type="text" name="name" placeholder="Введите имя">
+        <input type="email" name="email" placeholder="Введите email">
+        <input type="submit" value="Отправить">
+    </form>
+{% endblock content %}
