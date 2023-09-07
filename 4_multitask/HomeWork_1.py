@@ -9,8 +9,11 @@
 import requests
 import threading
 import pathlib
+import sys
 from bs4 import BeautifulSoup
 from task_1 import time_decorator
+
+args = sys.argv[1:]
 
 
 def get_image_urls(url):
@@ -31,8 +34,8 @@ def img_downloader(url):
 
 
 @time_decorator
-def main():
-    urls = get_image_urls('https://bigpicture.ru/100-luchshix-fotografij-koshek-vsex-vremen-i-narodov/')
+def main(url):
+    urls = get_image_urls(url)
     threads = []
     for url in urls:
         thread = threading.Thread(target=img_downloader, args=(url,), daemon=True)
@@ -42,6 +45,9 @@ def main():
 
 
 if __name__ == '__main__':
-    main()
+    if args:
+        main(args[0])
+    else:
+        main('https://bigpicture.ru/100-luchshix-fotografij-koshek-vsex-vremen-i-narodov/')
 
     # Время выполнения функции 'main': 11.8549 секунд

@@ -5,6 +5,7 @@
 # — Программа должна использовать асинхронный подход.
 # — Программа должна иметь возможность задавать список URL-адресов через аргументы командной строки.
 # — Программа должна выводить в консоль информацию о времени скачивания каждого изображения и общем времени выполнения программы.
+import sys
 
 import requests
 import asyncio
@@ -13,7 +14,8 @@ import aiohttp
 import time
 import pathlib
 from bs4 import BeautifulSoup
-from task_1 import time_decorator
+
+args = sys.argv[1:]
 
 
 def get_image_urls(url):
@@ -34,15 +36,18 @@ async def img_downloader(url):
                 await f.write(await response.read())
 
 
-async def main():
-    urls = get_image_urls('https://bigpicture.ru/100-luchshix-fotografij-koshek-vsex-vremen-i-narodov/')
+async def main(url):
+    urls = get_image_urls(url)
     tasks = [asyncio.ensure_future(img_downloader(url)) for url in urls]
     await asyncio.gather(*tasks)
 
 
 if __name__ == '__main__':
     start_time = time.time()
-    asyncio.run(main())
+    if args:
+        asyncio.run(main(args[0]))
+    else:
+        asyncio.run(main('https://bigpicture.ru/100-luchshix-fotografij-koshek-vsex-vremen-i-narodov/'))
     end_time = time.time()
     print(f"Время выполнения функции 'main': {end_time - start_time:.4f} секунд")
 
