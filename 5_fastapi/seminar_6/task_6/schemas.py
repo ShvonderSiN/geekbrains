@@ -1,8 +1,8 @@
-import datetime
+from datetime import datetime
 import decimal
 from enum import Enum
 
-from pydantic import BaseModel, Field, EmailStr
+from pydantic import BaseModel, Field, EmailStr, validator
 
 
 class Status(Enum):
@@ -12,7 +12,7 @@ class Status(Enum):
 
 class OrderInSchema(BaseModel):
     """Схема заказа без id"""
-    date: datetime.datetime
+    date: datetime
     status: Status = Status.IN_PROGRESS
 
 
@@ -39,8 +39,8 @@ class UserInSchema(BaseModel):
     """Схема пользователя без id"""
     name: str = Field(..., min_length=2)
     surname: str = Field(..., min_length=2)
-    email = EmailStr
-    password = str
+    email: EmailStr = Field(..., example="user@example.com")
+    password: str = Field(..., min_length=8, example="stroNgp47aSsword")
 
 
 class UserSchema(UserInSchema):

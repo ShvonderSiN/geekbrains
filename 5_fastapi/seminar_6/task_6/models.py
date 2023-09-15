@@ -1,6 +1,4 @@
-from datetime import datetime
-
-from sqlalchemy import Column, Integer, String, Enum, DECIMAL, ForeignKey
+from sqlalchemy import Column, Integer, String, Enum, DECIMAL, ForeignKey, DateTime
 from sqlalchemy.ext.declarative import declarative_base
 from sqlalchemy.orm import relationship
 
@@ -48,7 +46,7 @@ class OrderModel(Base):
     id = Column(Integer, autoincrement=True, primary_key=True, index=True)
     user_id = Column(ForeignKey('users_task_6.id'), nullable=False)
     good_id = Column(ForeignKey('goods_task_6.id'), nullable=False)
-    date = Column(datetime.date, nullable=False)
+    date = Column(DateTime, nullable=False)
     status = Column(Enum(Status), default=Status.IN_PROGRESS, nullable=False)
 
     def __str__(self):
