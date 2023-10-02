@@ -1,0 +1,18 @@
+{% extends 'base.html' %}
+
+{% block h1 %}
+    Все клиенты:
+{% endblock h1 %}
+{% block content %}
+    <ul>
+        {% for client in clients %}
+            <li>
+                {% if client.order_count > 0 %}
+                    <a href="{% url 'orders_by_client' client.pk %}" target="_blank">{{ client.name | capfirst }}</a>
+                {% else %}
+                    {{ client.name | capfirst }}
+                {% endif %}
+            </li>
+        {% endfor %}
+    </ul>
+{% endblock content %}
