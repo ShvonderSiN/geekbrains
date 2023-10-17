@@ -22,3 +22,21 @@
      ssh-add ~/.ssh/id_rsa
      ```
    
+3. **Добавление SSH-ключа на GitHub**
+   
+   - Выведите содержимое ключа в терминале:
+     ```bash
+     cat ~/.ssh/id_rsa.pub
+     ```
+   - Скопируйте # Доступ в GitHub
+
+4. **Клонирование репозитория через SSH**
+
+   При клонировании репозитория используйте SSH-URL:
+   ```bash
+   git clone git@github.com:username/repo.git
+   ```
+   вывод команды.
+   - Откройте GitHub, перейдите в "Settings" → "SSH and GPG keys" → "New SSH key".
+   - Вставьте ключ и дайте ему название.
+   
