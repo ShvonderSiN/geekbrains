@@ -10,4 +10,15 @@
      ssh-keygen -t rsa -b 4096 -C "your_email@example.com"
      ```
    - По умолчанию ключ сохраняется в файле `~/.ssh/id_rsa`.
+
+2. **Добавление SSH-ключа к ssh-agent**
+
+   - Запустите SSH-агент:
+     ```bash
+     eval "$(ssh-agent -s)"
+     ```
+   - Добавьте ключ в агент:
+     ```bash
+     ssh-add ~/.ssh/id_rsa
+     ```
    
